@@ -23,7 +23,7 @@ FROM base AS runner
 
 WORKDIR /app
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 #creates a system group named nodejs 
 RUN addgroup --system --gid 1001 nodejs
