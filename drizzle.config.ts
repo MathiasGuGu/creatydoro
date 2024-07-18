@@ -3,17 +3,9 @@ import { defineConfig } from "drizzle-kit";
 
 export default defineConfig({
   dialect: "postgresql",
-  out: "./src/drizzle",
-  schema: "./src/drizzle/schema.ts",
+  out: "./drizzle",
+  schema: "./drizzle/schema.ts",
   dbCredentials: {
-    host: process.env.PGHOST!,
-    port: Number(process.env.PGPORT!),
-    user: process.env.PGUSER!,
-    password: process.env.PGPASSWORD!,
-    database: process.env.PGDATABASE!,
+    url: process.env.DATABASE_PUBLIC_URL!,
   },
-  // Print all statements
-  verbose: true,
-  // Always ask for confirmation
-  strict: true,
 });
