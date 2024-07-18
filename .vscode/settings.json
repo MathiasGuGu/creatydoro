@@ -2,5 +2,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["ts", "tsx", "js", "jsx"]
+"eslint.validate": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx"
+],
+"editor.defaultFormatter": "evolution-gaming.evolution-gaming--vscode-eslint",
+"editor.formatOnSave": true
 }
