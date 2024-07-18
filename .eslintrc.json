@@ -2,6 +2,11 @@
   "extends": ["next/core-web-vitals", "next", "next/core-web-vitals", "airbnb"],
   "rules": {
         "react/react-in-jsx-scope": "off",
-        "react/jsx-filename-extension": "off"
+        "react/jsx-filename-extension": "off",
+        "import/prefer-default-export": "off",
+        "global-require": "warn",
+        "react/require-default-props": "off",
+        "import/extensions": "off",
+        "react/jsx-props-no-spreading": "off"
   }
 }
