@@ -1,5 +1,4 @@
-import { Button } from '@/components/ui/button';
-
+import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <main className="flex flex-col h-screen w-screen gap-12 items-center justify-center">
@@ -22,6 +21,7 @@ export default function Home() {
           the Creadoro-Team. Choose theme, music and more! only on creadoro.
         </p>
       </article>
+
       <section className="flex gap-4">
         <Button variant="default">Start Creodoro</Button>
         <Button variant="ghost">Learn how!</Button>
