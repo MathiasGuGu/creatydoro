@@ -4,7 +4,7 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "rules": {"react/react-in-jsx-scope": "off", "react/jsx-props-no-spreading": "off", "react/require-default-props": "off", "global-require": "warn", "import/prefer-default-export": "off"},
+  "rules": {"react/react-in-jsx-scope": "off", "react/jsx-props-no-spreading": "off", "react/require-default-props": "off", "global-require": "warn", "import/prefer-default-export": "off", "@typescript-eslint/quotes": "off"},
   "parserOptions": {
     "project": "./tsconfig.json" }
 }

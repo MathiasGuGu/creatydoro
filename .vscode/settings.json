@@ -9,5 +9,6 @@
     "jsx"
 ],
 "editor.defaultFormatter": "evolution-gaming.evolution-gaming--vscode-eslint",
-"editor.formatOnSave": true
+"editor.formatOnSave": true,
+"eslint.format.enable": true
 }

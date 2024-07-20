@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <main className="flex flex-col h-screen w-screen gap-12 items-center justify-center">
