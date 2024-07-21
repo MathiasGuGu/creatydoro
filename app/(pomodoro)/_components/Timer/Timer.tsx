@@ -29,7 +29,11 @@ const Timer = () => {
 
   return (
     <div className="w-full h-full flex flex-col items-center justify-center gap-12">
-      <h2 className="text-3xl font-bold">{time}</h2>
+      <div className="flex flex-col items-center justify-center w-64 aspect-square rounded-full bg-red-200">
+        <div className="flex flex-col items-center justify-center w-56 aspect-square rounded-full bg-white">
+          <h2 className="text-3xl font-bold">{time}</h2>
+        </div>
+      </div>
       <div className="flex gap-2">
         <Button>Start</Button>
         <Button variant={"ghost"}>Stop</Button>
